@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
+header {
+  background-color: #121212;
+  color: #ffffff;
+  height: 67px;
+  width: 100%;
+}
+footer {
+  background-color: #121212;
+  min-height: 100px;
+  width: 100%;
+}
+html,
+body {
+  height: 100%;
+  background-color: #121212;
+}
+a {
+  height: 100%;
+  text-decoration: none;
+}
+div.all-content {
+  font-family: Lato, sans-seriff;
+}
+nav {
+  text-align: center;
+}
+nav > ul {
+  display: inline-block;
+}
+nav li {
+  color: #ffffff;
+  display: inline-block;
+  font-family: Lato, sans-seriff;
+  font-size: 18px;
+  font-weight: 300;
+  height: 67px;
+  line-height: 67px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+nav li:hover {
+  background-color: #333333;
+  cursor: pointer;
+}
+nav li > a {
+  color: #ffffff;
+}
+footer {
+  padding-top: 20px;
+}
+#social-media-links {
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: 200px;
+}
+div.main-content {
+  background-color: #ffffff;
+  width: 100%;
+}
+.space-holder {
+  clear: both;
+}
+div.main-content .coming-soon {
+  align-items: center;
+  display: flex;
+  font-size: 68px;
+  height: 400px;
+  justify-content: center;
+}
