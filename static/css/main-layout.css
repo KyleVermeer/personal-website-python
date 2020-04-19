@@ -23,12 +23,6 @@ a {
 p {
   margin: 0px;
 }
-nav {
-  text-align: center;
-}
-nav > ul {
-  display: inline-block;
-}
 nav li {
   color: #ffffff;
   display: inline-block;
@@ -39,9 +33,6 @@ nav li {
   line-height: 67px;
   padding-left: 20px;
   padding-right: 20px;
-}
-nav li:hover {
-  cursor: pointer;
 }
 nav li > a {
   color: #ffffff;
@@ -76,4 +67,32 @@ div.main-content .coming-soon {
   font-size: 68px;
   height: 400px;
   justify-content: center;
+}
+
+/* Nav */
+nav {
+  display: flex;
+  height: 100%;
+  margin: 0px 16px;
+}
+
+nav li:hover {
+  cursor: pointer;
+}
+
+#core-anchor {
+  display: inline-block;
+  font-size: 24px;
+  margin: auto;
+}
+
+#core-anchor a {
+  color: #ffffff;
+}
+
+nav > ul {
+  display: inline-block;
+  flex-grow: 1;
+  margin: 0px;
+  text-align: right;
 }
