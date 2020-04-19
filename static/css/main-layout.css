@@ -52,9 +52,7 @@ div.main-content {
 .space-holder {
   clear: both;
 }
-#self-intro {
-  background-color: #1f8dd6;
-}
+
 #t1d-intro {
   background-color: #ffffff;
 }
@@ -67,6 +65,24 @@ div.main-content .coming-soon {
   font-size: 68px;
   height: 400px;
   justify-content: center;
+}
+
+/* Main Content */
+#self-intro {
+  background-color: #1f8dd6;
+  display: flex;
+}
+#self-intro > div{
+  margin: auto;
+}
+
+.main-content section {
+  min-height: 400px;
+}
+
+/* Self Intro */
+#self-intro-text {
+  color: #ffffff;
 }
 
 /* Nav */
@@ -95,4 +111,12 @@ nav > ul {
   flex-grow: 1;
   margin: 0px;
   text-align: right;
+}
+
+.header-text {
+  font-size: 60px;
+}
+
+.secondary-text {
+  font-size: 22px;
 }
