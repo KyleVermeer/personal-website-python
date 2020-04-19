@@ -53,9 +53,6 @@ div.main-content {
   clear: both;
 }
 
-#t1d-intro {
-  background-color: #ffffff;
-}
 #philosophies {
   background-color: rgb(45, 62, 80);
 }
@@ -77,7 +74,13 @@ div.main-content .coming-soon {
 }
 
 .main-content section {
-  min-height: 400px;
+  min-height: 460px;
+}
+
+#t1d {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Self Intro */
@@ -111,6 +114,33 @@ nav > ul {
   flex-grow: 1;
   margin: 0px;
   text-align: right;
+}
+
+/* Section Card */
+.card-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  width: 400px;
+}
+
+.card .card-title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 12px;
+}
+
+.card .card-description {
+  text-align: center;
+  font-size: 22px;
+}
+/* Shared Classes */
+
+.section-header {
+  margin: 40px 0px;
+  text-align: center;
 }
 
 .header-text {
