@@ -123,18 +123,17 @@ nav > ul {
 }
 
 .card {
-  width: 400px;
+  padding: 16px;
 }
 
 .card .card-title {
-  text-align: center;
-  font-size: 36px;
+  font-size: 18px;
+  font-weight: bold;
   margin-bottom: 12px;
 }
 
 .card .card-description {
-  text-align: center;
-  font-size: 22px;
+  font-size: 18px;
 }
 /* Shared Classes */
 
@@ -145,8 +144,22 @@ nav > ul {
 
 .header-text {
   font-size: 60px;
+  font-weight: bold;
 }
 
 .secondary-text {
   font-size: 22px;
+}
+
+.light-text {
+  color: #454545;
+}
+
+.row-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.icon-spacing {
+  margin-bottom: 12px;
 }
