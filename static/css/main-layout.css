@@ -69,8 +69,10 @@ div.main-content .coming-soon {
   background-color: #1f8dd6;
   display: flex;
 }
-#self-intro > div{
+
+#self-intro > div {
   margin: auto;
+  display: flex;
 }
 
 .main-content section {
@@ -87,6 +89,7 @@ div.main-content .coming-soon {
 /* Self Intro */
 #self-intro-text {
   color: #ffffff;
+  margin: auto;
 }
 
 /* Nav */
@@ -171,4 +174,10 @@ nav > ul {
 
 .instagram-widget {
   margin: auto;
+}
+
+.responsive-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
 }
