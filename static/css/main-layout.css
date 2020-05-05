@@ -75,6 +75,7 @@ div.main-content .coming-soon {
 
 .main-content section {
   min-height: 460px;
+  padding: 48px 0px;
 }
 
 #t1d {
@@ -138,8 +139,12 @@ nav > ul {
 /* Shared Classes */
 
 .section-header {
-  margin: 40px 0px;
+  margin-bottom: 40px;
   text-align: center;
+}
+
+.section-header .secondary-text {
+  margin-top: 32px;
 }
 
 .header-text {
@@ -157,9 +162,13 @@ nav > ul {
 
 .row-container {
   max-width: 1200px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .icon-spacing {
   margin-bottom: 12px;
+}
+
+.instagram-widget {
+  margin: auto;
 }
